@@ -12,7 +12,7 @@ int print_last_digit(int n)
 	if (id < 0)
 		id *= -1;
 
-	_putchar(id + "0");
+	_putchar(id + '0');
 
 	return (0);
 }
