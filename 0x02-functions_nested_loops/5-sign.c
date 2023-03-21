@@ -7,7 +7,7 @@
  * 0 if number is zero
  * -1 if nmber is less that zero
  */
-int _print_sign(int n)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
