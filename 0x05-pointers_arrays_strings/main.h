@@ -10,7 +10,7 @@ void rev_string(char *s);
 void puts2(char *str);
 void puts_half(char *str);
 void print_array(int *a, int n);
-void char_*strcp(char *dest, char *src);
+void char _*strcp(char *dest, char *src);
 void _putchar(char c);
 
 #endif
