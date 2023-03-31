@@ -1,8 +1,7 @@
-#include "string.h"
 #include "main.h"
 
 /**
- * _strcat - concatenates two strings
+ * - concatenates two strings
  * @dest: destination
  * @src: source
  * Reaturn: pointer to dest
