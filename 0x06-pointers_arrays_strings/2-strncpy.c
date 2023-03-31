@@ -1,31 +1,21 @@
-#include "main.c"
+#include "main.h"
 
 /**
- * _strncat - joins two strings with n bytes
- * @dest: destination
- * @src: source
- * Return: dest
+ * _strncpy - copies a string
+ * @dest: destination.
+ * @src: source.
+ * @n: amount of bytes from src.
+ * Return: the pointer to dest.
  */
 
-char *_strncat(char *dest, *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
-	int j;
 
-	i = 0;
-	while (dest[i] != '\0')
-	{
-		i++;
-	}
-
-	j = o;
-	while (j < n && src[j] != '\0')
-	{
-		dest[i] src[j];
-		i++;
-		j++;
-	}
-	dest[i] = '\0';
+	for (i = 0; i < n && src[i] != '\0'; i++)
+		dest[i] = src[i];
+	for ( ; i < n; i++)
+		dest[i] = '\0';
 
 	return (dest);
 }
